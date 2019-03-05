@@ -1,0 +1,17 @@
+default:
+  plugins:
+    - image
+    - link
+    - uploadimage
+  uploadimage: false  
+
+alternate:
+  selector: textarea.table-editor
+  toolbar: styleselect | bold italic | undo redo | table
+  plugins:
+    - table
+
+  toolbar: bold italic underline | uploadimage
+  plugins:
+    - uploadimage
+  uploadimage: false  
