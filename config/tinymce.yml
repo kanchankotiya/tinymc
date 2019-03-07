@@ -2,8 +2,6 @@ default:
   plugins:
     - image
     - link
-    - uploadimage
-  uploadimage: false  
 
 alternate:
   selector: textarea.table-editor
@@ -11,7 +9,4 @@ alternate:
   plugins:
     - table
 
-  toolbar: bold italic underline | uploadimage
-  plugins:
-    - uploadimage
-  uploadimage: false  
+  
